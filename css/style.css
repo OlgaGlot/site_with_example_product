@@ -1,0 +1,717 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.promo_bg {
+    background: linear-gradient(5deg, #89bcd3, #f3b992);
+    padding-top: 34px;
+    padding-bottom: 56px;
+}
+
+.promo_bg h1 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 28px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #520c4b;
+}
+
+.promo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 27px;
+    border: 1px solid #31033a;
+}
+
+.description img {
+    width: 19%;
+    float: left;
+    margin-right: 33px;
+}
+
+.promo_text {
+    margin: 0;
+}
+
+.promo_text p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.promo_text ul {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.promo_submit, .sostav_submit, .promo_1_submit {
+    display: flex;
+    justify-content: center;
+}
+
+.promo_submit a, .sostav_submit a, .promo_1_submit a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    padding: 7px 28px;
+    border: 1px solid #31033a;
+    border-radius: 2em;
+}
+
+.promo_submit {
+    margin-top: 20px;
+}
+
+.promo_submit a:hover, .sostav_submit a:hover, .promo_1_submit a:hover {
+    text-shadow: 0px 0px 10px #d41cf8, 
+    0px 0px 15px #d41cf8, 
+    0px 0px 20px #d41cf8, 
+    -10px 0px 15px #d41cf8, 
+    10px 0px 15px #d41cf8, 
+    -20px 10px 15px #d41cf8, 
+    20px -10px 15px #d41cf8, 
+    30px 10px 15px #d41cf8, 
+    -30px -10px 15px #d41cf8;
+}
+
+.video {
+    width: 500px;
+    height: 280px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.description iframe {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sostav_bg {
+    background: linear-gradient(45deg, #C5DDE8, #EECFBA);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sostav_bg h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #520c4b;
+}
+
+.sostav_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sostav_container_1, .sostav_container_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sostav_container_1 {
+    margin-right: 80px;
+}
+.cont_1_item, .cont_2_item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cont_1_item:first-child, .cont_2_item:first-child {
+    margin-top: 0;
+}
+
+.cont_1_img, .cont_2_img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont_1_item img, .cont_2_item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px; 
+    border: 3px solid green; 
+    box-shadow: 0 0 7px #666;
+}
+
+.cont_1_item p, .cont_2_item p {
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.sostav_container_2 {
+    margin-left: 80px;
+}
+
+.otziv_bg {
+    background: linear-gradient(90deg, #b1d4e4, #f3c4a5);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.otziv_bg h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #520c4b;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.otziv_container_big {
+    border: 1px solid #000;
+}
+
+.otziv_container_small {
+    border: 1px solid #000;
+    display: none;
+}
+
+.otziv_name {
+    font-size: 24px;
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+.otziv_text {
+    font-size: 19px;
+}
+
+.promo_1_bg {
+    background: linear-gradient(10deg, #b1d4e4, #f3c4a5);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.promo_1_bg h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #520c4b;
+}
+
+.promo_1_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo_1_img {
+    margin-right: 56px;
+    width: 406px;
+}
+
+.promo_1_img img {
+    width: 100%;
+}
+
+.promo_1_description {
+    font-size: 20px;
+    width: 380px;
+}
+
+.characteristics_line {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    padding-left: 0;
+}
+
+.characteristics_line li {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.characteristics_line li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: green;
+}
+
+.form_zakaz_bg {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form_zakaz_bg h1{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #520c4b;
+}
+
+.form_zakaz_bg h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.timer_cont {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+   
+.countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: #a16a98;
+    display: inline-block;
+}
+   
+.countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: #650b59;
+    display: inline-block;
+}
+   
+.countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.deadline-message{
+    display: none;
+    font-size: 24px;
+    font-style: italic;
+}
+   
+.visible{
+    display: block;
+}
+   
+.hidden{
+    display: none;
+}
+
+.form_container {
+      display: flex;
+      justify-content: center;
+      padding-top: 54px;
+}
+
+.foto_and_price {
+    margin-right: 25px;
+    margin-left: 25px;
+    border: 1px solid #31033a;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.foto_and_price img {
+    width: 50%;
+    height: 70%;
+}
+
+.price {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.price p {
+    margin: 0;
+}
+
+.price_text {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.old_price {
+      font-size: 20px;
+      text-decoration: line-through;
+      font-weight: 400;
+}
+
+.new_price {
+      font-size: 28px;
+      animation: blur .75s ease-out infinite;
+      text-shadow: 0px 0px 10px #d41cf8, 0px 0px 15px #d41cf8;
+      font-weight: 400;
+}
+
+@keyframes blur {
+    from {
+      text-shadow:0px 0px 20px #d41cf8,
+        0px 0px 20px #d41cf8, 
+        0px 0px 25px #d41cf8,
+        0px 0px 25px #d41cf8,
+        0px 0px 25px #d41cf8,
+        0px 0px 25px #d41cf8,
+        0px 0px 25px #d41cf8,
+        0px 0px 25px #d41cf8,
+        0px 0px 50px #d41cf8,
+        0px 0px 50px #d41cf8,
+        0px 0px 50px #d41cf8,
+        0px 0px 80px #d41cf8,
+        0px 0px 60px #d41cf8,
+        0px 0px 60px #d41cf8,
+        0px 0px 60px #d41cf8,
+        0px 0px 60px #d41cf8;
+    }
+  }
+
+.form {
+    border: 1px solid #31033a;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.form form {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.form form p {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input_text_wrapper, .input_tel_wrapper {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    min-width: 265px;
+}
+
+.input_text_wrapper:hover:after,
+.input_tel_wrapper:hover:after {   
+    position: absolute;
+    z-index: 1;
+    background: #ffffcc;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 8px 0px rgba(119, 119, 119, 0.64);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(119, 119, 119, 0.64);
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(119, 119, 119, 0.64);
+}
+
+.input_text_wrapper:hover:after {
+    content: 'Например: Виктория';
+    left: 97%; bottom: 100%;
+}
+
+.input_tel_wrapper:hover:after {
+    content: 'Формат ввода: 8XXXXXXXXXX';
+    left: 97%; top: 100%;
+}
+
+.name, .tel {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none; 
+    opacity: 0.7;
+}
+
+.tel { 
+    -moz-appearance: textfield;
+}
+.tel::-webkit-inner-spin-button { 
+    display: none;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
+}
+
+.submit a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+    font-size: 17px;
+    padding: 8px 28px;
+    border: 1px solid #31033a;
+    border-radius: 2em;
+}
+
+.submit a:hover {
+    text-shadow: 0px 0px 10px #d41cf8, 
+    0px 0px 15px #d41cf8, 
+    0px 0px 20px #d41cf8, 
+    -10px 0px 15px #d41cf8, 
+    10px 0px 15px #d41cf8, 
+    -20px 10px 15px #d41cf8, 
+    20px -10px 15px #d41cf8, 
+    30px 10px 15px #d41cf8, 
+    -30px -10px 15px #d41cf8;
+}
+
+@media(max-width: 1054px) {
+    .promo_container {
+        flex-wrap: wrap;
+    }
+    .description, .promo_container iframe {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 852px) {
+    .sostav_img {
+        width: 249px;
+    }
+    .sostav_img img {
+        width: 100%;
+    }
+    .promo_1_description {
+        font-size: 18px;
+    }
+    .characteristics_line {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .promo_1_submit a {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 650px) {
+    .cont_1_img, .cont_2_img {
+        width: 100px;
+        height: 100px;
+    }
+    .sostav_container_1 {
+        margin-right: 50px;
+    }
+    .sostav_img {
+        width: 136px;
+    }
+    .sostav_container_2 {
+        margin-left: 50px;
+    }
+    .cont_1_item, .cont_2_item {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .otziv_container_big {
+        border: 1px solid #000;
+        display: none;
+    }
+    .otziv_container_small {
+        border: 1px solid #000;
+        display: inline;
+    }
+    .otziv_text {
+        font-size: 15px;
+    }
+    .otziv_name {
+        font-size: 20px;
+    }
+    .promo_1_description {
+        font-size: 15px;
+    }
+    .form_container {
+        flex-wrap: wrap;
+    }
+    .foto_and_price {
+        width: 307px;
+    }
+    .form {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 554px) {
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        max-width: 400px;
+    }
+    .description img {
+        float: none;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .promo_text p {
+        font-size: 17px;
+        text-align: center;
+    }
+    .promo_text ul {
+        font-size: 14px;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo_text ul li:before{
+        content: '-  ';
+    }
+
+    .sostav_container {
+        font-size: 12px;
+    }
+
+    .promo_1_container {
+        flex-wrap: wrap;
+    }
+    .promo_1_img {
+        width: 237px;
+        margin-right: 28px;
+        margin-left: 28px;
+    }
+    .promo_1_description {
+        margin-left: 28px;
+        margin-right: 28px;
+        text-align: justify;
+    }
+    .characteristics_line {
+        flex-wrap: wrap;
+        margin-bottom: 33px;
+    }
+    .characteristics_line li {
+        margin-top: 10px;
+    }
+    .characteristics_line li:first-child {
+        margin-top: 0;
+    }
+    .video {
+        width: 400px;
+        height: 230px;
+    }
+    
+}
+
+@media(max-width: 400px) {
+    .video {
+        width: 280px;
+        height: 171px;
+        margin-top: 20px;
+    }
+    .sostav_img {
+        width: 90px;
+    }
+    .sostav_container {
+        font-size: 10px;
+    }
+    .sostav_container_1 {
+        margin-right: 20px;
+    }
+    .sostav_container_2 {
+        margin-left: 20px;
+    }
+    .cont_1_img, .cont_2_img {
+        width: 65px;
+        height: 65px;
+    }
+    .otziv_text {
+        font-size: 13px;
+    }
+    .promo_1_description {
+        font-size: 13px;
+    }
+    .characteristics_line {
+        font-size: 13px;
+    }
+    .countdown {
+        font-size: 18px;
+    }
+    .countdown-time {
+        padding: 13px;
+    }
+    .countdown-text {
+        font-size: 13px;
+    }
+    .foto_and_price {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .form {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .form form {
+        margin-left: 13px;
+        margin-right: 13px;
+        margin-top: 0;
+    }
+    .input_text_wrapper:hover:after {
+        left: 85%;
+    }
+    .input_tel_wrapper:hover:after {
+        left: 78%;
+    }
+}
+
+@media(max-width: 290px) {
+    .form form {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .countdown-number {
+        padding: 6px;
+    }
+}
