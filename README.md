@@ -1,1 +1,1 @@
-# site_with_example_product
+# Выполненное задание с продуктом
